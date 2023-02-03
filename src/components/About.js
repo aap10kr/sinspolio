@@ -3,6 +3,7 @@ import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants.js';
+import { Link } from 'react-scroll';
 
 
 const About = () => {
@@ -28,44 +29,75 @@ const About = () => {
             className='flex-1'>
             <h2 className='h2 text-accent'>About me.</h2>
             <h3 className='h3 mb-4'>프론트엔드 개발자 이재신 입니다.</h3>
-            <p>
+            <p className='mb-6'>
               Loremasdasdasdasasdasdasdasdasdasdasdasdasdasdfdsf
               qfgadfgadfgdfgdafgfdartwerwefwefgregdfdfvxvzdcszdfs
               qefaregfaergaergaergaregafgadfgadfgadfgadfgfdsfsd
               sdfsdfsdfsdfewr.
             </p>
-            <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
-              <div>
-                <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ? <CountUp start={0} end={13} duration={1}/> : null}
+            <div className='gap-x-6 lg:gap-x-10 mb-12'>
+              <div className='flex mb-6'>
+                <div className=''>
+                  <div className='text-[40px] font-tertiary text-gradient mb-2'>
+                    {inView ? <CountUp start={0} end={13} duration={1}/> : null}
+                  </div>
+                  <div className='font-primary text-sm tracking-[2px]'>
+                    <img src='../assets/Work-img1.png' alt='html-img'/>
+                  </div>
                 </div>
-                <div className='font-primary text-sm tracking-[2px]'>
-                  year of<br/>
-                  Experience
+                <div className='ml-6'>
+                  <div className='text-[40px] font-tertiary text-gradient mb-2'>
+                    {inView ? <CountUp start={0} end={13} duration={1}/> : null}
+                  </div>
+                  <div className='font-primary text-sm tracking-[2px]'>
+                    year of<br/>
+                    Experience
+                  </div>
+                </div>
+                <div className='ml-6'>
+                  <div className='text-[40px] font-tertiary text-gradient mb-2'>
+                    {inView ? <CountUp start={0} end={13} duration={1}/> : null}
+                  </div>
+                  <div className='font-primary text-sm tracking-[2px]'>
+                    year of<br/>
+                    Experience
+                  </div>
                 </div>
               </div>
-              <div>
-                <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ? <CountUp start={0} end={13} duration={1}/> : null}
+              <div className='flex'>
+                <div className=''>
+                  <div className='text-[40px] font-tertiary text-gradient mb-2'>
+                    {inView ? <CountUp start={0} end={13} duration={1}/> : null}
+                  </div>
+                  <div className=''>
+                    <img src='../assets/Work-img1.png' alt='html-img'/>
+                  </div>
                 </div>
-                <div className='font-primary text-sm tracking-[2px]'>
-                  year of<br/>
-                  Experience
+                <div className='ml-6'>
+                  <div className='text-[40px] font-tertiary text-gradient mb-2'>
+                    {inView ? <CountUp start={0} end={13} duration={1}/> : null}
+                  </div>
+                  <div className='font-primary text-sm tracking-[2px]'>
+                    year of<br/>
+                    Experience
+                  </div>
                 </div>
-              </div>
-              <div>
-                <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                  {inView ? <CountUp start={0} end={13} duration={1}/> : null}
-                </div>
-                <div className='font-primary text-sm tracking-[2px]'>
-                  year of<br/>
-                  Experience
+                <div className='ml-6'>
+                  <div className='text-[40px] font-tertiary text-gradient mb-2'>
+                    {inView ? <CountUp start={0} end={13} duration={1}/> : null}
+                  </div>
+                  <div className='font-primary text-sm tracking-[2px]'>
+                    year of<br/>
+                    Experience
+                  </div>
                 </div>
               </div>
             </div>
             <div className='flex gap-x-8 items-center'>
-              <button className='btn btn-lg'>contect me</button>
-              <a href='#' className='text-gradient btn-link'>My portfolio</a>
+              <Link to='contact' smooth={true}>
+                <button className='btn btn-sm'>See next</button>
+              </Link>
+              <a href='#' className='text-gradient btn-link'>my resume</a>
             </div>
           </motion.div>
         </div>

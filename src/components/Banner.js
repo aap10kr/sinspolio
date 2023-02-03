@@ -52,8 +52,8 @@ const Banner = () => {
               initial="hidden" 
               whileInView={'show'} 
               viewport={{once: false, amount: 0.7}} 
-              className='mb-8 max-w-lg mx-auto lg:mx-0'>
-                신입 프론트엔드 개발자 이재신입니다.
+              className='text-[36px] lg:text-[40px] font-semibold mb-8 mt-10 max-w-lg mx-auto lg:mx-0'>
+                Do You Want To See More?
             </motion.p>
             <motion.div 
                 variants={fadeIn('up', 0.6)} 
@@ -63,9 +63,9 @@ const Banner = () => {
                 className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
               
               <Link to='about' smooth={true}>
-                <button className='btn btn-lg'>Contact me</button>
+                <button className='btn btn-lg'>See next</button>
               </Link>
-              <a href='#' className='text-gradient btn-link'>my Portfolio</a>
+              <a href='#' className='text-gradient btn-link'>my resume</a>
             </motion.div>
             <motion.div 
               variants={fadeIn('up', 0.7)} 
