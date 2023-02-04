@@ -5,6 +5,12 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants.js';
 import { Link } from 'react-scroll';
 
+import Img1 from '../assets/Work-img1.png';
+import Img2 from '../assets/Work-img2.png';
+import Img3 from '../assets/Work-img3.png';
+import Img4 from '../assets/Work-img4.png';
+import Img5 from '../assets/Work-img5.png';
+import Img6 from '../assets/Work-img6.png';
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -29,75 +35,71 @@ const About = () => {
             className='flex-1'>
             <h2 className='h2 text-accent'>About me.</h2>
             <h3 className='h3 mb-4'>프론트엔드 개발자 이재신 입니다.</h3>
-            <p className='mb-6'>
+            <p className='mb-8'>
               Loremasdasdasdasasdasdasdasdasdasdasdasdasdasdfdsf
               qfgadfgadfgdfgdafgfdartwerwefwefgregdfdfvxvzdcszdfs
               qefaregfaergaergaergaregafgadfgadfgadfgadfgfdsfsd
               sdfsdfsdfsdfewr.
             </p>
             <div className='gap-x-6 lg:gap-x-10 mb-12'>
-              <div className='flex mb-6'>
+              <div className='flex mb-7'>
                 <div className=''>
-                  <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                    {inView ? <CountUp start={0} end={13} duration={1}/> : null}
+                  <div className='flex justify-center text-[40px] font-tertiary text-gradient mb-3'>
+                    {inView ? <CountUp start={0} end={90} duration={3}/> : null}
                   </div>
                   <div className='font-primary text-sm tracking-[2px]'>
-                    <img src='../assets/Work-img1.png' alt='html-img'/>
+                    <img src={Img1} alt='html-img1' className='w-20 opacity-90'/>
                   </div>
                 </div>
-                <div className='ml-6'>
-                  <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                    {inView ? <CountUp start={0} end={13} duration={1}/> : null}
+                <div className='ml-14'>
+                  <div className='flex justify-center text-[40px] font-tertiary text-gradient mb-3'>
+                    {inView ? <CountUp start={0} end={85} duration={2}/> : null}
                   </div>
                   <div className='font-primary text-sm tracking-[2px]'>
-                    year of<br/>
-                    Experience
+                    <img src={Img2} alt='html-img1' className='w-20 opacity-90'/>
                   </div>
                 </div>
-                <div className='ml-6'>
-                  <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                    {inView ? <CountUp start={0} end={13} duration={1}/> : null}
+                <div className='ml-14 bg-WorkImg1'>
+                  <div className='flex justify-center text-[40px] font-tertiary text-gradient mb-3'>
+                    {inView ? <CountUp start={0} end={70} duration={2}/> : null}
                   </div>
                   <div className='font-primary text-sm tracking-[2px]'>
-                    year of<br/>
-                    Experience
+                    <img src={Img3} alt='html-img1' className='w-20 opacity-90 rounded'/>
                   </div>
                 </div>
               </div>
               <div className='flex'>
                 <div className=''>
-                  <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                    {inView ? <CountUp start={0} end={13} duration={1}/> : null}
+                  <div className='flex justify-center text-[40px] font-tertiary text-gradient mb-3'>
+                    {inView ? <CountUp start={0} end={85} duration={2}/> : null}
                   </div>
                   <div className=''>
-                    <img src='../assets/Work-img1.png' alt='html-img'/>
+                    <img src={Img4} alt='html-img1' className='w-20 opacity-90'/>
                   </div>
                 </div>
-                <div className='ml-6'>
-                  <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                    {inView ? <CountUp start={0} end={13} duration={1}/> : null}
+                <div className='ml-16'>
+                  <div className='flex justify-center text-[40px] font-tertiary text-gradient mb-3'>
+                    {inView ? <CountUp start={0} end={65} duration={1.5}/> : null}
                   </div>
                   <div className='font-primary text-sm tracking-[2px]'>
-                    year of<br/>
-                    Experience
+                    <img src={Img5} alt='html-img1' className='w-16 opacity-90 rounded'/>
                   </div>
                 </div>
-                <div className='ml-6'>
-                  <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                    {inView ? <CountUp start={0} end={13} duration={1}/> : null}
+                <div className='ml-16'>
+                  <div className='flex justify-center text-[40px] font-tertiary text-gradient mb-3'>
+                    {inView ? <CountUp start={0} end={65} duration={1.5}/> : null}
                   </div>
                   <div className='font-primary text-sm tracking-[2px]'>
-                    year of<br/>
-                    Experience
+                    <img src={Img6} alt='html-img1' className='w-20 opacity-90'/>
                   </div>
                 </div>
               </div>
             </div>
             <div className='flex gap-x-8 items-center'>
               <Link to='contact' smooth={true}>
-                <button className='btn btn-sm'>See next</button>
+                <button className='btn btn-sm font-bold'>더 알아보기</button>
               </Link>
-              <a href='#' className='text-gradient btn-link'>my resume</a>
+              <a href='#' className='btn-link'><span className='text-gradient font-bold'>이력서 보기</span></a>
             </div>
           </motion.div>
         </div>

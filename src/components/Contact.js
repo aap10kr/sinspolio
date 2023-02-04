@@ -12,7 +12,7 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_uqhm8yq', 'template_umir856', form.current, 'BoAwPzzY6apUGGWjUOzoQ')
+    emailjs.sendForm('service_uqhm8yq', 'template_umir856', form.current, 'p-xJ4WZkD6MKkXBMN')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -48,19 +48,19 @@ export const Contact = () => {
             <input 
               className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
               type="text"
-              placeholder='your name'
+              placeholder='your_name'
               name="user_name"
             />
             <input 
               className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
-              type="text"
-              placeholder='your email'
+              type="eamil"
+              placeholder='your_email'
               name="user_email"
             />
             <textarea 
               className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12'
               type="text"
-              placeholder='your message'
+              placeholder='your_message'
               name="message"
             ></textarea>
             <input type="submit" value="Send" className='btn btn-lg' />

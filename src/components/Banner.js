@@ -63,9 +63,9 @@ const Banner = () => {
                 className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
               
               <Link to='about' smooth={true}>
-                <button className='btn btn-lg'>See next</button>
+                <button className='btn btn-lg font-bold'>더 알아보기</button>
               </Link>
-              <a href='#' className='text-gradient btn-link'>my resume</a>
+              <a href='#' className='btn-link'><span className='text-gradient font-bold'>이력서 보기</span></a>
             </motion.div>
             <motion.div 
               variants={fadeIn('up', 0.7)} 
