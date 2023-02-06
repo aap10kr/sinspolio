@@ -96,7 +96,7 @@ const About = () => {
               <Link to='work' smooth={true}>
                 <button className='btn btn-sm font-bold'>더 알아보기</button>
               </Link>
-              <a href='#' className='btn-link'><span className='text-gradient font-bold'>이력서 보기</span></a>
+              <a href='https://periodic-zebu-130.notion.site/Sineee-815ed5c466d641379e340f208e308014' className='btn-link'><span className='text-gradient font-bold'>이력서 보기</span></a>
             </div>
           </motion.div>
         </div>

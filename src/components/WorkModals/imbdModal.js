@@ -64,7 +64,7 @@ const Imdb = () => {
                           </div>
                           <div className=' mb-14'>
                             <button className='btn px-4 py-2 mr-4 mb-3 lg:mb-0'>
-                              <a href='https://github.com/aap10kr/imdb-clone' target='blank' className='text-xs lg:text-sm'>GITHUB 소스보기</a>
+                              <a href='https://github.com/aap10kr/imdb' target='blank' className='text-xs lg:text-sm'>GITHUB 소스보기</a>
                             </button>
                             <button className='btn px-4 py-2'>
                               <a href='https://imdb-clone-indol.vercel.app/' target='blank' className='text-xs lg:text-sm'>사이트 바로가기</a>
