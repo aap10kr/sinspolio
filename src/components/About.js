@@ -36,15 +36,12 @@ const About = () => {
             <h2 className='h2 text-accent'>About me.</h2>
             <h3 className='h3 mb-4'>프론트엔드 개발자 이재신 입니다.</h3>
             <p className='mb-8'>
-              Loremasdasdasdasasdasdasdasdasdasdasdasdasdasdfdsf
-              qfgadfgadfgdfgdafgfdartwerwefwefgregdfdfvxvzdcszdfs
-              qefaregfaergaergaergaregafgadfgadfgadfgadfgfdsfsd
-              sdfsdfsdfsdfewr.
+            운동과 개발을 좋아하고 항상 호기심을 가지고 호기심을 해결하기 위해 살아가며 어제보다 하나라도 더 많이 알아가는 오늘이 되기 위해 노력하는 프론트엔드 개발자입니다.
             </p>
             <div className='gap-x-6 lg:gap-x-10 mb-12'>
               <div className='flex mb-7'>
                 <div className=''>
-                  <div className='flex justify-center text-[40px] font-tertiary text-gradient mb-3'>
+                  <div className='flex justify-center text-[35px] font-tertiary text-gradient mb-3'>
                     {inView ? <CountUp start={0} end={90} duration={3}/> : null}
                   </div>
                   <div className='font-primary text-sm tracking-[2px]'>
@@ -52,7 +49,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className='ml-14'>
-                  <div className='flex justify-center text-[40px] font-tertiary text-gradient mb-3'>
+                  <div className='flex justify-center text-[35px] font-tertiary text-gradient mb-3'>
                     {inView ? <CountUp start={0} end={85} duration={2}/> : null}
                   </div>
                   <div className='font-primary text-sm tracking-[2px]'>
@@ -60,7 +57,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className='ml-14 bg-WorkImg1'>
-                  <div className='flex justify-center text-[40px] font-tertiary text-gradient mb-3'>
+                  <div className='flex justify-center text-[35px] font-tertiary text-gradient mb-3'>
                     {inView ? <CountUp start={0} end={70} duration={2}/> : null}
                   </div>
                   <div className='font-primary text-sm tracking-[2px]'>
@@ -70,7 +67,7 @@ const About = () => {
               </div>
               <div className='flex'>
                 <div className=''>
-                  <div className='flex justify-center text-[40px] font-tertiary text-gradient mb-3'>
+                  <div className='flex justify-center text-[35px] font-tertiary text-gradient mb-3'>
                     {inView ? <CountUp start={0} end={85} duration={2}/> : null}
                   </div>
                   <div className=''>
@@ -78,7 +75,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className='ml-16'>
-                  <div className='flex justify-center text-[40px] font-tertiary text-gradient mb-3'>
+                  <div className='flex justify-center text-[35px] font-tertiary text-gradient mb-3'>
                     {inView ? <CountUp start={0} end={65} duration={1.5}/> : null}
                   </div>
                   <div className='font-primary text-sm tracking-[2px]'>
@@ -86,7 +83,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className='ml-16'>
-                  <div className='flex justify-center text-[40px] font-tertiary text-gradient mb-3'>
+                  <div className='flex justify-center text-[35px] font-tertiary text-gradient mb-3'>
                     {inView ? <CountUp start={0} end={65} duration={1.5}/> : null}
                   </div>
                   <div className='font-primary text-sm tracking-[2px]'>
@@ -96,7 +93,7 @@ const About = () => {
               </div>
             </div>
             <div className='flex gap-x-8 items-center'>
-              <Link to='contact' smooth={true}>
+              <Link to='work' smooth={true}>
                 <button className='btn btn-sm font-bold'>더 알아보기</button>
               </Link>
               <a href='#' className='btn-link'><span className='text-gradient font-bold'>이력서 보기</span></a>

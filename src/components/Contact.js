@@ -48,19 +48,19 @@ export const Contact = () => {
             <input 
               className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
               type="text"
-              placeholder='your_name'
+              placeholder='name'
               name="user_name"
             />
             <input 
               className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
               type="eamil"
-              placeholder='your_email'
+              placeholder='email'
               name="user_email"
             />
             <textarea 
               className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12'
               type="text"
-              placeholder='your_message'
+              placeholder='message'
               name="message"
             ></textarea>
             <input type="submit" value="Send" className='btn btn-lg' />
