@@ -5,9 +5,8 @@ import './modal.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import Img1 from '../../assets/main.png'
-import Img2 from '../../assets/control.png'
-import Img3 from '../../assets/notice.png'
+import Img1 from '../../assets/bike1.png'
+import Img2 from '../../assets/bike2.png'
 
 import Img4 from '../../assets/Work-img4.png'
 import Img6 from '../../assets/Work-img6.png'
@@ -47,9 +46,6 @@ const Tashu = () => {
                             </div>
                             <div>
                               <img src={Img2} alt=''/>
-                            </div>
-                            <div>
-                              <img src={Img3} alt=''/>
                             </div>
                           </Slider>
                         </div>

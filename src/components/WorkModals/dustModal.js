@@ -5,12 +5,11 @@ import './modal.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import Img1 from '../../assets/main.png'
-import Img2 from '../../assets/control.png'
-import Img3 from '../../assets/notice.png'
+import Img1 from '../../assets/dust1.png';
+import Img2 from '../../assets/dust2.png';
 
-import Img4 from '../../assets/Work-img4.png'
-import Img6 from '../../assets/Work-img6.png'
+import Img4 from '../../assets/Work-img4.png';
+import Img6 from '../../assets/Work-img6.png';
 
 Modal.setAppElement('#root')
 const Dusts = () => {
@@ -47,9 +46,6 @@ const Dusts = () => {
                             </div>
                             <div>
                               <img src={Img2} alt=''/>
-                            </div>
-                            <div>
-                              <img src={Img3} alt=''/>
                             </div>
                           </Slider>
                         </div>
