@@ -49,13 +49,13 @@ export const Contact = () => {
               className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
               type="text"
               placeholder='name'
-              name="user_name"
+              name="name"
             />
             <input 
               className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all'
               type="eamil"
               placeholder='email'
-              name="user_email"
+              name="email"
             />
             <textarea 
               className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12'

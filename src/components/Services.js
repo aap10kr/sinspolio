@@ -46,7 +46,7 @@ const Services = () => {
                 </div>
                 <div className='flex mt-4'>
                   <div className='w-1 h-1 rounded-full mt-3 bg-purple-400'></div>
-                  <p className='ml-1.5 opacity-80'>초기 Jascript로 제작되어 있는 기능들을 Svelte로 리팩토링</p>
+                  <p className='ml-1.5 opacity-80'>초기 Javascript로 제작되어 있는 기능들을 Svelte로 리팩토링</p>
                 </div>
                 <div className='flex mt-4'>
                   <div className='w-1 h-1 rounded-full mt-3 bg-purple-400'></div>
