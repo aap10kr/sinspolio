@@ -26,7 +26,7 @@ const About = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{once: false, amount:0.3}}
-            className='flex-1 bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'></motion.div>
+            className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'></motion.div>
           <motion.div 
             variants={fadeIn('left', 0.3)}
             initial="hidden"
@@ -34,7 +34,7 @@ const About = () => {
             viewport={{once: false, amount:0.3}}
             className='flex-1'>
             <h2 className='h2 text-accent'>About me.</h2>
-            <h3 className='h3 mb-4'>프론트엔드 개발자 오재신 입니다.</h3>
+            <h3 className='h3 mb-4'>프론트엔드 개발자 이재신 입니다.</h3>
             <p className='mb-8'>
             운동과 개발을 좋아하고 항상 호기심을 가지고 호기심을 해결하기 위해 살아가며 어제보다 하나라도 더 많이 알아가는 오늘이 되기 위해 노력하는 프론트엔드 개발자입니다.
             </p>
