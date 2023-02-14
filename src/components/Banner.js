@@ -19,7 +19,7 @@ const Banner = () => {
               viewport={{once: false, amount: 0.7}} 
               className='text-[55px] font-bold leading-[0.8] lg:text-[110px]'
               >
-              LEE <span>JAESIN</span>
+              OH <span>JAESIN</span>
             </motion.h1>
             <motion.div 
               variants={fadeIn('up', 0.4)} 
@@ -73,13 +73,13 @@ const Banner = () => {
               whileInView={'show'} 
               viewport={{once: false, amount: 0.7}} 
               className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-              <a href='https://www.facebook.com/profile.php?id=100004372328818'>
+              <a href='#'>
                 <FaFacebook />
               </a>
               <a href='https://github.com/aap10kr?tab=overview&from=2023-02-01&to=2023-02-01'>
                 <FaGithub />
               </a>
-              <a href='https://www.instagram.com/sin_eeeeeeeee/'>
+              <a href='#'>
                 <FaInstagram />
               </a>
             </motion.div>
@@ -89,7 +89,7 @@ const Banner = () => {
             initial="hidden" 
             whileInView={'show'} 
             className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'>
-            <img src={Image} alt=''/>          
+            {/* <img src={Image} alt=''/>  */}         
           </motion.div>
         </div>
       </div>
